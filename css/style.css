@@ -1216,3 +1216,14 @@ h5 {
     line-height: 1;
   }
 }
+
+/* Custom styles for hiding hero text when mobile menu is open */
+.menu-open #hero-text {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .menu-open #hero-text {
+    display: block;
+  }
+}
