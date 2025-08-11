@@ -14,3 +14,21 @@
     background-position: center;
   }
 }
+
+@keyframes shine {
+  0% {
+    background-position: -100% 0;
+    opacity: 0;
+  }
+  50% {
+    background-position: 100% 0;
+    opacity: 1;
+  }
+  100% {
+    background-position: 200% 0;
+    opacity: 0;
+  }
+}
+.group:hover .group-hover\:animate-shine {
+  animation: shine 1s linear;
+}

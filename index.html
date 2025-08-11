@@ -66,17 +66,45 @@
           </div>
         </nav>
         <div
-          class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl"
+          class="max-w-lg mt-32 mb-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:m-32 md:mx-0 md:text-6xl relative overflow-hidden group"
         >
-          Impressive Experiences That Deliver
-        </div>
+          <span
+            class="relative z-10"
+          >
+            Impressive Experiences That Deliver
+          </span>
+          <span
+            class="absolute inset-0 z-0 pointer-events-none transition-all duration-700 bg-gradient-to-r from-transparent via-white/60 to-transparent opacity-0 group-hover:opacity-100 group-hover:animate-shine"
+            style="background-size: 200% 100%;"
+          ></span>
       </div>
     </section>
 
     <section id="feature">
       <div
         class="relative container flex flex-col max-w-6xl mx-auto my-32 px-6 text-gray-900 md:flex-row"
-      ></div>
+      >
+        <img
+          src="images/desktop/image-interactive.jpg"
+          alt=""
+          class="rounded-lg shadow-2xl transition-transform duration-500 hover:scale-105 hover:rotate-2 hover:shadow-3xl"
+         
+        />
+      
+        <div
+          class="top-48 pr-0 bg-white md:absolute md:right-0 md:py-20 md:pl-20 rounded"
+        >
+          <h2
+            class="max-w-lg mt-10 mb-6 font-sans text-4xl text-center text-gray-900 uppercase md:mt-0 md:text-5xl md:text-left"
+          >
+            The leader in interactive vr
+          </h2>
+          <p class="max-w-md text-center md:text-left">
+            Experience the future of technology with our cutting-edge virtual
+            reality solutions.
+          </p>
+        </div>
+      </div>
     </section>
   </body>
 </html>
